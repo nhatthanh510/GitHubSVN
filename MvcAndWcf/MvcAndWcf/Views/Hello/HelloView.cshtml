@@ -1,0 +1,20 @@
+﻿@model MvcAndWcf.Models.HomeModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HelloView</title>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("About this Website", "About")
+        @Html.DisplayNameFor(m => m.information.Name);
+    </div>
+</body>
+</html>
